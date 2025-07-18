@@ -53,6 +53,17 @@ public class TestLoginUS001 {
 	}
 	
 	@Test
+	public void validateCreateNewAccount_1() {
+		loginPage.waitForLoginPage();
+		loginPage.getCreateNewAccountButton().click();
+		String actual = driver.getTitle(); 
+		System.out.println(actual);
+		String expected = "Sign up for Facebook"; 
+		Assert.assertEquals(actual, expected);
+	}
+	
+	
+	@Test
 	public void enterName() throws InterruptedException {
 		loginPage.getCreateNewAccountButton().click();
 		signup.getFristNameTextBox().sendKeys("Robin");
