@@ -62,6 +62,15 @@ public class TestLoginUS001 {
 		Assert.assertEquals(actual, expected);
 	}
 	
+	@Test
+	public void validateCreateNewAccount_2() {
+		loginPage.waitForLoginPage();
+		loginPage.getCreateNewAccountButton().click();
+		String actual = driver.getTitle(); 
+		System.out.println(actual);
+		String expected = "Sign up for Facebook"; 
+		Assert.assertEquals(actual, expected);
+	}
 	
 	@Test
 	public void enterName() throws InterruptedException {
