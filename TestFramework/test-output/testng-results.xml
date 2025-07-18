@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="5" passed="5" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-07-18T07:58:26 IST" name="Suite" finished-at="2025-07-18T07:59:21 IST" duration-ms="55046">
+    <groups>
+    </groups>
+    <test started-at="2025-07-18T07:58:26 IST" name="Test" finished-at="2025-07-18T07:59:21 IST" duration-ms="55046">
+      <class name="com.sonar.cubes.test.smoke.TestLoginUS001">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.sonar.cubes.test.smoke.TestLoginUS001@30c15d8b]" started-at="2025-07-18T07:58:28 IST" name="setup" finished-at="2025-07-18T07:58:39 IST" duration-ms="11464" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="enterName()[pri:0, instance:com.sonar.cubes.test.smoke.TestLoginUS001@30c15d8b]" started-at="2025-07-18T07:58:39 IST" name="enterName" finished-at="2025-07-18T07:59:06 IST" duration-ms="26960" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- enterName -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.sonar.cubes.test.smoke.TestLoginUS001@30c15d8b]" started-at="2025-07-18T07:59:06 IST" name="tearDown" finished-at="2025-07-18T07:59:07 IST" duration-ms="204" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.sonar.cubes.test.smoke.TestLoginUS001@30c15d8b]" started-at="2025-07-18T07:59:07 IST" name="setup" finished-at="2025-07-18T07:59:11 IST" duration-ms="3917" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="loginTest()[pri:0, instance:com.sonar.cubes.test.smoke.TestLoginUS001@30c15d8b]" started-at="2025-07-18T07:59:11 IST" name="loginTest" finished-at="2025-07-18T07:59:11 IST" duration-ms="412" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.sonar.cubes.test.smoke.TestLoginUS001@30c15d8b]" started-at="2025-07-18T07:59:11 IST" name="tearDown" finished-at="2025-07-18T07:59:11 IST" duration-ms="201" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.sonar.cubes.test.smoke.TestLoginUS001@30c15d8b]" started-at="2025-07-18T07:59:11 IST" name="setup" finished-at="2025-07-18T07:59:15 IST" duration-ms="3900" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="validateCreateNewAccount()[pri:0, instance:com.sonar.cubes.test.smoke.TestLoginUS001@30c15d8b]" started-at="2025-07-18T07:59:15 IST" name="validateCreateNewAccount" finished-at="2025-07-18T07:59:17 IST" duration-ms="2042" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateCreateNewAccount -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.sonar.cubes.test.smoke.TestLoginUS001@30c15d8b]" started-at="2025-07-18T07:59:17 IST" name="tearDown" finished-at="2025-07-18T07:59:17 IST" duration-ms="204" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.sonar.cubes.test.smoke.TestLoginUS001@30c15d8b]" started-at="2025-07-18T07:59:17 IST" name="setup" finished-at="2025-07-18T07:59:21 IST" duration-ms="3650" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="validateUsernameText()[pri:0, instance:com.sonar.cubes.test.smoke.TestLoginUS001@30c15d8b]" started-at="2025-07-18T07:59:21 IST" name="validateUsernameText" finished-at="2025-07-18T07:59:21 IST" duration-ms="53" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateUsernameText -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.sonar.cubes.test.smoke.TestLoginUS001@30c15d8b]" started-at="2025-07-18T07:59:21 IST" name="tearDown" finished-at="2025-07-18T07:59:21 IST" duration-ms="179" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.sonar.cubes.test.smoke.TestLoginUS001 -->
+      <class name="com.sonar.cubes.test.smoke.TestGenericFunction">
+        <test-method signature="test()[pri:0, instance:com.sonar.cubes.test.smoke.TestGenericFunction@1bb5a082]" started-at="2025-07-18T07:58:26 IST" name="test" finished-at="2025-07-18T07:58:28 IST" duration-ms="1774" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test -->
+      </class> <!-- com.sonar.cubes.test.smoke.TestGenericFunction -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
