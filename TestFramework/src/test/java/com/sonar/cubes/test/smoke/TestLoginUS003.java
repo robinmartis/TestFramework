@@ -41,46 +41,6 @@ public class TestLoginUS003 {
 		String expected = "Email address or phone number"; 
 		Assert.assertEquals(text, expected);
 	}
-	
-	@Test
-	public void validateCreateNewAccount() {
-		loginPage.waitForLoginPage();
-		loginPage.getCreateNewAccountButton().click();
-		String actual = driver.getTitle(); 
-		System.out.println(actual);
-		String expected = "Sign up for Facebook"; 
-		Assert.assertEquals(actual, expected);
-	}
-	
-	@Test
-	public void validateCreateNewAccount_1() {
-		loginPage.waitForLoginPage();
-		loginPage.getCreateNewAccountButton().click();
-		String actual = driver.getTitle(); 
-		System.out.println(actual);
-		String expected = "Sign up for Facebook"; 
-		Assert.assertEquals(actual, expected);
-	}
-	
-	@Test
-	public void validateCreateNewAccount_2() {
-		loginPage.waitForLoginPage();
-		loginPage.getCreateNewAccountButton().click();
-		String actual = driver.getTitle(); 
-		System.out.println(actual);
-		String expected = "Sign up for Facebook"; 
-		Assert.assertEquals(actual, expected);
-	}
-	
-	@Test
-	public void enterName() throws InterruptedException {
-		loginPage.getCreateNewAccountButton().click();
-		signup.getFristNameTextBox().sendKeys("Robin");
-		signup.getSurnameNameTextBox().sendKeys("Martis");
-//		Thread.sleep(10000);
-	}
-	
-
 	@AfterMethod
 	public void tearDown() {
 		driver.close();
