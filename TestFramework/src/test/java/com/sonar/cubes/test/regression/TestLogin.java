@@ -66,6 +66,16 @@ public class TestLogin{
 //		Thread.sleep(10000);
 	}
 	
+	
+	@Test
+	public void loginTest_1() throws InterruptedException {
+		login.waitForLoginPage();
+		login.getEmailTextbox().sendKeys("test@test.com");
+		login.getPasswordTextbox().sendKeys("abcd");
+		login.getLoginButton().click();
+	}
+	
+	
 	@AfterMethod
 	public void post() {
 		driver.close();
